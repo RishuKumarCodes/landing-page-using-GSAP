@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    /* background-color: black;
+    color: white; */
+}
+
+* {
+    font-family: "Exo 2", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+}
+
+.section1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+
+    .part2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+
+    i {
+        display: inline-block;
+        rotate: 45deg;
+    }
+
+    h4 {
+        font-size: 1.15rem;
+        font-weight: 500;
+    }
+
+    button {
+        padding: 0.7rem 1.4rem;
+        font-size: 1.1rem;
+        background-color: transparent;
+        border-radius: 5px;
+        border: 1px solid #000;
+    }
+}
+
+.center {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    margin-top: 4rem;
+    /* background-color: rebeccapurple; */
+
+    .center-part1 {
+        /* background-color: lightblue; */
+        height: 100%;
+        padding: 2.5rem;
+        /* width: 50%; */
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        h1 {
+            font-size: 4.8vw;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #313131;
+        }
+
+        button {
+            width: max-content;
+            margin: 1rem 0;
+            padding: 15px 20px;
+            font-size: large;
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 8px;
+        }
+    }
+
+    .center-part2 {
+        /* background-color: lightblue; */
+        height: 100%;
+        width: auto;
+        margin: auto;
+
+        img {
+            width: 30vw;
+            /* padding: 4rem ; */
+        }
+    }
+}
+
+.section1bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 120px 50px;
+    img{
+        height: max(60px, 5vw);
+        
+    }
+}
